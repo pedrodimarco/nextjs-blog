@@ -39,6 +39,15 @@ export default function Home({ allPostsData }) {
                     Blog site
                 </small>
           </li>
+          <li className={utilStyles.listItem}>
+            <Link href={`https://pedrodimarco.github.io/Workspace_inicial1/index.html`} target='_blank'>
+                  e-Mercado
+            </Link>
+            < br />
+                  <small className={utilStyles.lightText}>
+                    "Jóvenes a Programar" project
+                </small>
+          </li>
           {/* {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
               <Link href={`/posts/${id}`}>
